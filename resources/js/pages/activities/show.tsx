@@ -95,13 +95,6 @@ export default function ActivityShow({ activity }: Props) {
 														<span className="text-sm font-medium">
 															{log.user.name}
 														</span>
-
-														{log.user.department && (
-															<span className="text-xs text-muted-foreground">
-																· {log.user.department}
-															</span>
-														)}
-
 														<StatusBadge status={log.status} />
 													</div>
 

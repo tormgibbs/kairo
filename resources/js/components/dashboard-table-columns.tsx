@@ -41,15 +41,7 @@ export const columns: ColumnDef<Activity>[] = [
 
 			return (
 				<div className="flex flex-col gap-0.5">
-					<p className="text-xs font-medium">
-						{log.user.name}
-						{log.user.department && (
-							<span className="text-muted-foreground font-normal">
-								{' '}
-								· {log.user.department}
-							</span>
-						)}
-					</p>
+					<p className="text-xs font-medium">{log.user.name}</p>
 					{log.remark && (
 						<p className="text-xs text-muted-foreground italic truncate max-w-48">
 							"{log.remark}"

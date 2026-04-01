@@ -41,12 +41,6 @@ export function ActivityCard({ activity }: Props) {
 								<span className="text-foreground font-medium">
 									{activity.latest_log.user.name}
 								</span>
-								{activity.latest_log.user.department && (
-									<span className="text-muted-foreground">
-										{' '}
-										· {activity.latest_log.user.department}
-									</span>
-								)}
 							</p>
 							{activity.latest_log.remark && (
 								<p className="text-foreground italic">

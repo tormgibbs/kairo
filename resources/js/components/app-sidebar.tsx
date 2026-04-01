@@ -1,4 +1,3 @@
-// resources/js/components/app-sidebar.tsx
 import { Link } from '@inertiajs/react'
 import { ClipboardList, LayoutGrid, BarChart2 } from 'lucide-react'
 import AppLogo from '@/components/app-logo'

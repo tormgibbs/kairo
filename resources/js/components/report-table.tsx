@@ -34,11 +34,6 @@ function LogsExpanded({ activity }: { activity: Activity }) {
 					<div className="flex items-center gap-2">
 						<StatusBadge status={log.status} />
 						<span className="font-medium">{log.user.name}</span>
-						{log.user.department && (
-							<span className="text-muted-foreground">
-								· {log.user.department}
-							</span>
-						)}
 						<span className="text-muted-foreground font-mono ml-auto">
 							{new Date(log.logged_at).toLocaleTimeString([], {
 								hour: '2-digit',

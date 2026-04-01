@@ -17,15 +17,14 @@ import {
 	TableHeader,
 	TableRow,
 } from '@/components/ui/table'
-import type { Activity, User } from '@/types'
+import type { Activity } from '@/types'
 
 type Props = {
 	activities: Activity[]
-	user: User
 }
 
-export function ActivityTable({ activities, user }: Props) {
-	const columns = getColumns(user)
+export function ActivityTable({ activities }: Props) {
+	const columns = getColumns()
 
 	const table = useReactTable({
 		data: activities,

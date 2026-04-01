@@ -1,17 +1,14 @@
-import { Head, Link, usePage } from '@inertiajs/react'
+import { Head, Link } from '@inertiajs/react'
 import { Plus } from 'lucide-react'
 import { ActivityTable } from '@/components/activity-table'
 import { Button } from '@/components/ui/button'
-import type { Activity, User } from '@/types'
+import type { Activity } from '@/types'
 
 type Props = {
 	activities: Activity[]
 }
 
 export default function ActivitiesIndex({ activities }: Props) {
-	const { auth } = usePage().props
-	const user = auth.user as User
-
 	return (
 		<>
 			<Head title="Activities" />
@@ -34,7 +31,7 @@ export default function ActivitiesIndex({ activities }: Props) {
 				</header>
 
 				<section aria-label="Activities table">
-					<ActivityTable activities={activities} user={user} />
+					<ActivityTable activities={activities} />
 				</section>
 			</main>
 		</>
