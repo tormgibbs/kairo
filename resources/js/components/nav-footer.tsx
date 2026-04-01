@@ -1,4 +1,3 @@
-// resources/js/components/nav-footer.tsx
 import type { ComponentPropsWithoutRef } from 'react'
 import {
 	SidebarGroup,

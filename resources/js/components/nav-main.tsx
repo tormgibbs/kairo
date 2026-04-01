@@ -1,4 +1,3 @@
-// resources/js/components/nav-main.tsx
 import { Link } from '@inertiajs/react'
 import {
 	SidebarGroup,

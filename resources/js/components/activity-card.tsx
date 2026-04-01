@@ -1,4 +1,3 @@
-// resources/js/components/activity-card.tsx
 import { LogForm } from '@/components/log-form'
 import { StatusBadge } from '@/components/status-badge'
 import {

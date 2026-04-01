@@ -1,4 +1,3 @@
-// resources/js/components/stats-bar.tsx
 import { Card, CardContent } from '@/components/ui/card'
 import type { Activity } from '@/types'
 

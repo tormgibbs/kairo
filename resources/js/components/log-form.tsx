@@ -1,4 +1,3 @@
-// resources/js/components/log-form.tsx
 import { Controller, useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { router } from '@inertiajs/react'

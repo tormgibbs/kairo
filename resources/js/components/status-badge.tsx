@@ -1,4 +1,3 @@
-// resources/js/components/status-badge.tsx
 import { Badge } from '@/components/ui/badge'
 import { cn } from '@/lib/utils'
 import type { Activity } from '@/types'

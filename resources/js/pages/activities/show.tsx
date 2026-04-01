@@ -1,4 +1,3 @@
-// resources/js/pages/activities/show.tsx
 import { LogForm } from '@/components/log-form'
 import { StatusBadge } from '@/components/status-badge'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
