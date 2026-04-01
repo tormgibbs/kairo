@@ -23,7 +23,6 @@ class ActivityLogController extends Controller
 				'logged_at' => now(),
 			]);
 
-		// keep activity status in sync with latest log
 		$activity->update(['status' => $validated['status']]);
 
 		return redirect()->back();
